@@ -1,0 +1,19 @@
+.about-us {
+  padding-right: 2rem;
+  padding-left: 2rem;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+  text-align: center;
+}
+.header-title{
+  margin-top: 20px; 
+  margin-bottom: 35px"
+}
+.hero{
+  padding: 2rem 1rem;
+  background-color: #4da8f3;
+  text-align: center;
+}
+.display-4{
+  padding-top: 1rem;
+}
