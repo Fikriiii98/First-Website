@@ -1,20 +1,50 @@
-.about-us {
-  padding-right: 2rem;
-  padding-left: 2rem;
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 15px;
-  text-align: center;
-}
-.header-title{
-  margin-top: 20px; 
-  margin-bottom: 35px"
-}
-.hero{
-  padding: 2rem 1rem;
-  background-color: #4da8f3;
-  text-align: center;
-}
-.display-4{
-  padding-top: 1rem;
+:root {
+  --primary: #291f4de8;
+  --bg: #161616;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+body {
+  background-color: var(--bg);
+  color: aliceblue;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.4rem 5%;
+  background-color: rgba(22, 22, 22, 0.8);
+  border-bottom: 1px solid var(--primary);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+
+.navbar .Navbar-logo {
+  font-size: 1.5rem;
+  font-weight: 100;
+  color: aliceblue;
+  word-spacing: 0.5rem;
+}
+
+.navbar .Navbar-logo span {
+  color: var(--primary);
+}
+
+.navbar .navbar-nav a {
+  color: aliceblue;
+  display: inline-block;
+  font-size: 1.2rem;
+  margin: 0 0.4rem;
+}
