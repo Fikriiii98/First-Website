@@ -1,6 +1,6 @@
 :root {
-  --primary: #291f4de8;
-  --bg: #a09a9a62;
+  --primary: #252b48;
+  --bg: #445069;
 }
 
 * {
@@ -23,7 +23,7 @@ body {
   align-items: center;
   padding: 1.4rem 5%;
   background-color: rgba(22, 22, 22, 0.8);
-  border-bottom: 1px solid var(--primary);
+  border-bottom: 2px solid var(--primary);
   position: fixed;
   top: 0;
   left: 0;
@@ -61,7 +61,7 @@ body {
   align-items: center;
   background-image: url(img/jake-espedido-tn6ox0Cn2KI-unsplash.jpg);
   background-repeat: no-repeat;
-  background-size: 220px;
+  background-size: 230px;
   background-position: center;
   background-position-x: 10cm;
 }
