@@ -1,6 +1,6 @@
 :root {
   --primary: #291f4de8;
-  --bg: #161616;
+  --bg: #a09a9a62;
 }
 
 * {
@@ -40,6 +40,7 @@ body {
 
 .navbar .Navbar-logo span {
   color: var(--primary);
+  font-style: italic;
 }
 
 .navbar .navbar-nav a {
@@ -47,4 +48,46 @@ body {
   display: inline-block;
   font-size: 1.2rem;
   margin: 0 0.4rem;
+}
+
+.navbar .navbar-nav a:hover {
+  color: var(--primary);
+}
+
+/* Hero Section */
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background-image: url(img/jake-espedido-tn6ox0Cn2KI-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: 220px;
+  background-position: center;
+  background-position-x: 10cm;
+}
+
+.hero .content {
+  color: black;
+  text-align: start;
+  padding-left: 40rem;
+}
+
+/* media queries */
+/* Laptop */
+@media (max-width: 1366px) {
+  html {
+    font-size: 100%;
+  }
+}
+/* Tablet */
+@media (max-width: 768px) {
+  html {
+    font-size: 62%;
+  }
+}
+/* Hp */
+@media (max-width: 450px) {
+  html {
+    font-size: 55%;
+  }
 }
