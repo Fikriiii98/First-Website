@@ -4,6 +4,7 @@
 }
 
 * {
+  font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -15,6 +16,7 @@
 body {
   background-color: var(--bg);
   color: aliceblue;
+  min-height: 2000px;
 }
 
 .navbar {
@@ -35,7 +37,8 @@ body {
   font-size: 1.5rem;
   font-weight: 100;
   color: aliceblue;
-  word-spacing: 0.5rem;
+  word-spacing: 0.3rem;
+  letter-spacing: 0.2rem;
 }
 
 .navbar .Navbar-logo span {
@@ -59,17 +62,17 @@ body {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background-image: url(img/jake-espedido-tn6ox0Cn2KI-unsplash.jpg);
+  background-image: url(img/greg-rakozy-oMpAz-DN-9I-unsplash.jpg);
   background-repeat: no-repeat;
-  background-size: 230px;
+  background-size: cover;
   background-position: center;
-  background-position-x: 10cm;
 }
 
 .hero .content {
-  color: black;
+  color: rgb(255, 250, 250);
   text-align: start;
-  padding-left: 40rem;
+  padding: 1.3rem 7%;
+  max-width: 60rem;
 }
 
 /* media queries */
